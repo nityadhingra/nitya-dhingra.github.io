@@ -1,0 +1,51 @@
+body {
+  font-size: 1rem;
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #C0C0C0;
+  padding:5rem 0;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  text-align:center;
+  font-size: 1rem
+  left:150px;
+
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align:center;
+  padding: 20px 35px;
+  font-family: 'Roboto Mono', sans-serif;
+
+}
+
+li a:hover:not(.navigation) {
+  background-color:#D8BFD8;
+}
+
+
+.intro-block {
+  text-align:center
+  font-size:4rem;
+  position: fixed;
+  padding-top:70px;
+  padding-left:560px;
+
+}
+
+
+#car {
+  padding-left:120px;
+  padding-top: 50px
+}
