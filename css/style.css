@@ -10,8 +10,8 @@ ul {
   margin:0;
   overflow: hidden;
   text-align:center;
-  font-size: 1rem
-  left:150px;
+  font-size: 1.1rem
+
 
 
 
@@ -25,22 +25,30 @@ li a {
   display: block;
   color:black;
   text-align:center;
-  padding: 20px 35px;
+  padding: 35px 65px;
   font-family: 'Roboto Mono', sans-serif;
 
 }
 
 li a:hover:not(.navigation) {
-  background-color:#D8BFD8;
+  background-color:#c4c3d0;
 }
 
 
 .intro-block {
   text-align:center
-  font-size:4rem;
+  font-size:50px;
   position: fixed;
   padding-top:70px;
-  padding-left:560px;
+  padding-left:490px;
+
+  }
+
+h1 {
+  font-size:3.375rem;
+  font-weight:600;
+  padding-top:20px;
+  padding-right:320px;
 
 }
 
@@ -48,4 +56,12 @@ li a:hover:not(.navigation) {
 #car {
   padding-left:120px;
   padding-top: 50px
+}
+
+img {
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 1.0;
 }
